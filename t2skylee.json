@@ -1,0 +1,16 @@
+{
+  "name": "SkyleeVariants",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "SkyleeVariants.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "text",
+      "file": "SkyleeVariants.txt"
+    }
+  }]
+}
